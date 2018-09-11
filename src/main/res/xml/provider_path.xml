@@ -1,0 +1,34 @@
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <files-path
+        name="root"
+        path="." />
+    <files-path
+        name="my_images"
+        path="images/" />
+    <files-path
+        name="my_audios"
+        path="audios/" />
+    <root-path
+        name="name"
+        path="" />
+
+    <external-files-path
+        name="my_download"
+        path="Download" />
+
+    <external-files-path
+        name="my_external_images"
+        path="images/" />
+
+    <external-files-path
+        name="my_external"
+        path="/external/images/media/" />
+
+    <external-path
+        name="download"
+        path="." />
+
+    <external-path
+        name="external_files"
+        path="." />
+</paths>
