@@ -4,9 +4,10 @@
 ```
 
 ### simple usage
+> implementation 'com.carozhu:SystemDownLoadManager-updater:1.0.0'
 
 ```java
-      final UpdateDownloadDialog.Builder alert = new UpdateDownloadDialog.Builder(activity)
+ final UpdateDownloadDialog.Builder alert = new UpdateDownloadDialog.Builder(activity)
                 .setImageRecourse(R.drawable.ic_update)
                 .setTextTitle("版本升级")
                 //.setTextSubTitle("")
@@ -41,6 +42,6 @@
                  alert.setNegativeButtonText("取消")
                       .setOnNegativeClicked((view, dialog) -> dialog.dismiss());
                  alert.build();
-                 alert.show();
+                 alert.show();     
 
 ```
