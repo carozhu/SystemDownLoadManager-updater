@@ -138,6 +138,7 @@ public class UpdateDownloadDialog extends DialogFragment implements Serializable
                 title.setTextColor(ContextCompat.getColor(getActivity(), builder.getTitleColor()));
             }
             if (builder.getTextSubTitle() != null) {
+                subTitle.setVisibility(View.VISIBLE);
                 subTitle.setText(builder.getTextSubTitle());
             } else {
                 subTitle.setVisibility(View.GONE);

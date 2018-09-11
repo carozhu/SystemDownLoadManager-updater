@@ -4,7 +4,7 @@
 ```
 
 ### simple usage
-> implementation 'com.carozhu:SystemDownLoadManager-updater:1.0.0'
+> implementation 'com.carozhu:SystemDownLoadManager-updater:1.0.1'
 
 ```java
  final UpdateDownloadDialog.Builder alert = new UpdateDownloadDialog.Builder(activity)
